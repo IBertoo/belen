@@ -109,7 +109,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     //VALIDACION EN reCAPTCHA
-    $secretKey = "6Lc-5-wrAAAAAB8n6m4UgetLuWtoCuN0m35FBJsK";
+    $secretKey = "";
     $captchaResponse = $_POST['g-recaptcha-response'] ?? '';
 
 if (empty($captchaResponse)) {
@@ -322,7 +322,7 @@ include __DIR__ . '/partials/header.php';
         <input type="email" class="form-control" id="customer_email" name="customer_email" placeholder="Ej. correo@ejemplo.com">
     </div>
     <!-- SITIO DE RECAPTCHA -->
-    <div class="mb-3 g-recaptcha" data-sitekey="6Lc-5-wrAAAAADaJUNm_TPyTTWP9kfMCHIgEmlHm"></div>
+    <div class="mb-3 g-recaptcha" data-sitekey=""></div>
 
     <button type="button" id="checkout-button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#confirmModal" style="display: none;">Finalizar Compra</button>
     <a href="/index.php" class="btn btn-outline-secondary">Seguir comprando</a>
