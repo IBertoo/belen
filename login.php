@@ -70,7 +70,7 @@ include __DIR__ . '/partials/header.php';
 
       <!-- SITIO DE RECAPTCHA -->
       <div class="mb-3">
-        <div class="g-recaptcha" data-sitekey="6Lc-5-wrAAAAADaJUNm_TPyTTWP9kfMCHIgEmlHm"></div>
+        <div class="g-recaptcha" data-sitekey=""></div>
       </div>
 
       <div class="d-grid">
