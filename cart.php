@@ -1,6 +1,6 @@
 <?php
-$token = "8201020051:AAGZbW-_cEk_utKS4vfsCRjsDsXEA1dUYCI";
- $chat_id = "1582052556";
+$token = "";
+ $chat_id = "";
 
 
 
