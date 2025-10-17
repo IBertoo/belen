@@ -14,7 +14,7 @@ if (!empty($_SESSION['user'])) {
 //Sin sesion, se verificar si se mando datos en el form.
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     //VALIDACION EN reCAPTCHA
-    $secretKey = "6Lc-5-wrAAAAAB8n6m4UgetLuWtoCuN0m35FBJsK";
+    $secretKey = "";
     $captchaResponse = $_POST['g-recaptcha-response'] ?? '';
 
     if (empty($captchaResponse)) {
